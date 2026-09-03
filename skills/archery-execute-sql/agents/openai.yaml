@@ -1,0 +1,4 @@
+interface:
+  display_name: "Archery SQL Execute"
+  short_description: "Safely execute approved Archery SQL workflows"
+  default_prompt: "Use $archery-execute-sql to inspect and safely execute one approved Archery SQL workflow."

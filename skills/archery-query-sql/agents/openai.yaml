@@ -1,0 +1,4 @@
+interface:
+  display_name: "Archery SQL 查询"
+  short_description: "安全执行 SELECT 与 EXPLAIN SELECT 查询"
+  default_prompt: "Use $archery-query-sql to run a read-only SELECT query through Archery."

@@ -1,0 +1,46 @@
+{
+  "version": "v1.8.0",
+  "base_url": "https://archery.example.com",
+  "query": {
+    "username_env": "ARCHERY_USERNAME",
+    "password_env": "ARCHERY_PASSWORD",
+    "default_database": "app_db",
+    "default_limit": 100,
+    "max_limit": 1000,
+    "aliases": {
+      "test": 101
+    },
+    "instances": [
+      {
+        "id": 101,
+        "type": "slave",
+        "db_type": "mysql",
+        "instance_name": "test-query-instance"
+      }
+    ]
+  },
+  "submit": {
+    "username_env": "ARCHERY_USERNAME",
+    "password_env": "ARCHERY_PASSWORD",
+    "default_database": "app_db",
+    "instances": [
+      {
+        "id": 201,
+        "type": "master",
+        "db_type": "mysql",
+        "instance_name": "test-write-instance"
+      }
+    ]
+  },
+  "review": {
+    "username_env": "ARCHERY_REVIEW_USERNAME",
+    "password_env": "ARCHERY_REVIEW_PASSWORD",
+    "default_limit": 20,
+    "max_limit": 100
+  },
+  "execute": {
+    "username_env": "ARCHERY_EXECUTE_USERNAME",
+    "password_env": "ARCHERY_EXECUTE_PASSWORD",
+    "confirmation_token_env": "ARCHERY_EXECUTE_CONFIRM_TOKEN"
+  }
+}

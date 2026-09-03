@@ -1,0 +1,4 @@
+interface:
+  display_name: "Archery SQL 工单提交"
+  short_description: "检测 SQL 并安全提交 Archery 审批工单"
+  default_prompt: "Use $archery-submit-sql to check SQL and submit an Archery approval workflow."

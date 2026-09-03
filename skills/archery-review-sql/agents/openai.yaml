@@ -1,0 +1,4 @@
+interface:
+  display_name: "Archery SQL Review"
+  short_description: "Approve or reject reviewed Archery SQL workflows"
+  default_prompt: "Use $archery-review-sql to inspect and review a pending Archery SQL workflow."
